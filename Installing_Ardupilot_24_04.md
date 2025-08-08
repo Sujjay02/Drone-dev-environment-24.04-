@@ -1,6 +1,6 @@
 # Installing Ardupilot and MAVProxy Ubuntu 24.04
 
-##Clone Ardupilot
+## Clone Ardupilot
 
 In Home Directory:
 ```
@@ -10,7 +10,7 @@ git clone https://github.com/ArduPilot/ardupilot.git
 cd ardupilot
 
 ```
-##Install Dependencies
+## Install Dependencies
 ```
 Tools/environment_install/install-prereqs-ubuntu.sh -y
 ```
@@ -20,7 +20,7 @@ Reload Profile
 . ~/.profile
 ```
 
-##Checkout latest copter build
+## Checkout latest copter build
 ```
 git config --global url.https://.insteadOf git://
 git checkout Copter-4.4.4
